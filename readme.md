@@ -36,6 +36,7 @@
 
 ### Step 3 : 
 
+#### Option 1: 
 - Create a file with extension *py* say **`getobjects.py`** and put all the codes here : 
 
     > ```sh
@@ -65,6 +66,13 @@
     >     # Call the function to list files
     >     list_files_in_s3_bucket(bucket_name)
     > EOF
+    > ```
+
+#### Option 2: 
+- Run the command : 
+
+    > ```sh
+    > wget https://raw.githubusercontent.com/mrsatya21/s3boto3/main/getobjects.py
     > ```
 
 ### Step 4 : 
