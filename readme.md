@@ -20,6 +20,7 @@
     > 
     > # Check AWS CLI version (as AL2023 comes with AWS CLI preinstalled) :
     > aws --version
+    > aws sts get-caller-identity
     > 
     > # Install boto3 (Reference Link : https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html#using-the-aws-common-runtime-crt) : 
     > pip -q install boto3
