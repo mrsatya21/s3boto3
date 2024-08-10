@@ -23,20 +23,19 @@
     > 
     > # Install boto3 (Reference Link : https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html#using-the-aws-common-runtime-crt) : 
     > pip -q install boto3
+    > pip --version
     > ```
 
 ### Step 2: 
 
 - Set the bucket name for which you have to list objects (*replace <BUCKET_NAME> with the real one as per your use case*) : 
 
-    > ```sh
-    > # Get Bucket name :
+    > ```sh 
     > BUCKET_NAME=<BUCKET_NAME>
     > ```
 
 ### Step 3 : 
 
-#### Option 1: 
 - Create a file with extension *py* say **`getobjects.py`** and put all the codes here : 
 
     > ```sh
@@ -68,18 +67,10 @@
     > EOF
     > ```
 
-#### Option 2: 
-- Run the command : 
-
-    > ```sh
-    > wget https://raw.githubusercontent.com/mrsatya21/s3boto3/main/getobjects.py
-    > ```
-
 ### Step 4 : 
 
-- Get the output : 
+- Get the S3 bucket list using the below command : 
 
     > ```sh
-    > # Get the S3 bucket list using the below command : 
     > python3 getobjects.py
     > ```
